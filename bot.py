@@ -38,19 +38,8 @@ async def on_message(message):
             await message.delete()
         except (discord.Forbidden, discord.NotFound):
             pass
-            await channel.send("""# **RÈGLEMENT**
-Ces règles sont valables pour toustes
-
-​❕​ Ce serveur a été créé pour améliorer la communication entre tous les membres de GDM. Il est donc réservé exclusivement au projet. Des salons sont dédiés aux contenus "poubelle", qui n'a rien à voir avec le projet.
-
-🚫​ Comme tous bon serveur, on ne spam pas, encore moins avec des ping (@).
-Le contenu échangé doit resté correct, pas explicite, gênant ou choquant
-Il est important que tout le monde se respect, pas d'insultes par exemple.
-
-​🟢​ Ce serveur est le lieu pour poser vos questions et montrer l'avancé du projet. Pour cela il y a différents salons pour organiser le contenu du projet, respectez bien ce fonctionnement.
-
-​🔥​ Enfin, GDM est probablement voué à évoluer, de nouveaux membres pourraient rejoindre l'aventure, alors le salon #👋・présentations est le lieu parfait pour laisser une trace de vous même, dire qui vous êtes pour que les potentiel·le·s nouve·aux·lles puissent savoir qui vous êtes (en dehors du traditionnel alcooliques anonymes avec James et Eva)
-||@everyone||""")
+            await channel.send("""jaaj
+                               jaaj""")
         
 
 @bot.event
