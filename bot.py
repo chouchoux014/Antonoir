@@ -38,15 +38,15 @@ async def on_message(message):
         await channel.send("""# **RÈGLEMENT**
 Ces règles sont valables pour toustes
 
-:grey_exclamation: Ce serveur a été créé pour améliorer la communication entre tous les membres de GDM. Il est donc réservé exclusivement au projet. Des salons sont dédiés aux contenus "poubelle", qui n'a rien à voir avec le projet.
+​❕​ Ce serveur a été créé pour améliorer la communication entre tous les membres de GDM. Il est donc réservé exclusivement au projet. Des salons sont dédiés aux contenus "poubelle", qui n'a rien à voir avec le projet.
 
-:no_entry_sign:  Comme tous bon serveur, on ne spam pas, encore moins avec des ping (@).
+🚫​ Comme tous bon serveur, on ne spam pas, encore moins avec des ping (@).
 Le contenu échangé doit resté correct, pas explicite, gênant ou choquant
 Il est important que tout le monde se respect, pas d'insultes par exemple.
 
-:green_circle:  Ce serveur est le lieu pour poser vos questions et montrer l'avancé du projet. Pour cela il y a différents salons pour organiser le contenu du projet, respectez bien ce fonctionnement.
+​🟢​ Ce serveur est le lieu pour poser vos questions et montrer l'avancé du projet. Pour cela il y a différents salons pour organiser le contenu du projet, respectez bien ce fonctionnement.
 
-:fire:  Enfin, GDM est probablement voué à évoluer, de nouveaux membres pourraient rejoindre l'aventure, alors le salon #👋・présentations est le lieu parfait pour laisser une trace de vous même, dire qui vous êtes pour que les potentiel·le·s nouve·aux·lles puissent savoir qui vous êtes (en dehors du traditionnel alcooliques anonymes avec James et Eva)
+​🔥​ Enfin, GDM est probablement voué à évoluer, de nouveaux membres pourraient rejoindre l'aventure, alors le salon #👋・présentations est le lieu parfait pour laisser une trace de vous même, dire qui vous êtes pour que les potentiel·le·s nouve·aux·lles puissent savoir qui vous êtes (en dehors du traditionnel alcooliques anonymes avec James et Eva)
 ||@everyone||""")
         
 
