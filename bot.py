@@ -19,13 +19,13 @@ async def on_ready():
         print(f"Erreur lors de la synchronisation des commandes : {e}")
 
 
-@bot.tree.command(name="jaaj", description="Envoi du message prédéfini")
-async def jaaj(interaction: discord.Interaction):
-    await interaction.response.send_message("""Bonjour à toutes et tous ! Je suis le Grand Chef Grailloux ! Cuisinier depuis mon plus jeune âge, je suis à la tête des réstaurants les plus renomés du monde !
-Mais en ce moment, ma carrière m'a mené dans un viel hopital où je cuisine de la pauvre purée de patate sans sel...
-Mais ce n'est point gravissime ! J'espère un jour pouvoir partir de ce lieu horrifiant.
-D'ailleurs, ici on m'appelle Antonoir.
-||@everyone||""")
+#@bot.tree.command(name="jaaj", description="Envoi du message prédéfini")
+#async def jaaj(interaction: discord.Interaction):
+ #   await interaction.response.send_message("""Bonjour à toutes et tous ! Je suis le Grand Chef Grailloux ! Cuisinier depuis mon plus jeune âge, je suis à la tête des réstaurants les plus renomés du monde !
+#Mais en ce moment, ma carrière m'a mené dans un viel hopital où je cuisine de la pauvre purée de patate sans sel...
+#Mais ce n'est point gravissime ! J'espère un jour pouvoir partir de ce lieu horrifiant.
+#D'ailleurs, ici on m'appelle Antonoir.
+#||@everyone||""")
     
 @bot.event
 async def on_message(message):
