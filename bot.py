@@ -34,11 +34,8 @@ async def on_message(message):
     
     if message.content.lower() == "!@@":
         channel = message.channel
-        try:
-            await message.delete()
-        except (discord.Forbidden, discord.NotFound):
-            pass
-            await channel.send("""jaaj
+        await message.delete()
+        await channel.send("""jaaj
                                jaaj""")
         
 
