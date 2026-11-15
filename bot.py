@@ -34,8 +34,11 @@ async def on_message(message):
     
     if message.content.lower() == "!@@":
         channel = message.channel
-        await message.delete()
-        await channel.send("""# **RÈGLEMENT**
+        try:
+            await message.delete()
+        except (discord.Forbidden, discord.NotFound):
+            pass
+            await channel.send("""# **RÈGLEMENT**
 Ces règles sont valables pour toustes
 
 ​❕​ Ce serveur a été créé pour améliorer la communication entre tous les membres de GDM. Il est donc réservé exclusivement au projet. Des salons sont dédiés aux contenus "poubelle", qui n'a rien à voir avec le projet.
