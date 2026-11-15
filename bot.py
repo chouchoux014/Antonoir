@@ -40,6 +40,18 @@ Mais en ce moment, ma carrière m'a mené dans un vieil hopital où je cuisine d
 Mais ce n'est point gravissime ! J'espère un jour pouvoir partir de ce lieu horrifiant.
 D'ailleurs, ici on m'appelle Antonoir. Je suis là pour veiller sur vous haha !
 ||@everyone||""")
+        
+
+@bot.event
+async def on_message(message):
+    if message.author.bot:
+        return
+    
+    if message.content.lower() == "patate":
+        channel = message.channel
+        await message.delete()
+        await channel.send("Quelqu'un à parlé de purée de patate ?! Haha ! C'est un plat dont je connais tous les détails ! Mais je vous conseil de le saler un peu...")
+
 
 keep_alive()
 
